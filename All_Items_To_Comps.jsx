@@ -6,7 +6,7 @@
 function itemsToComps()
 {
 
-    app.beginUndoGroup("Precompose Layers");
+    app.beginUndoGroup("ItemsToComps");
 
     var numberOfItems = app.project.numItems;
     var everyItem = [];
